@@ -3,7 +3,7 @@ import Hello from "..";
 // import renderer from "react-test-renderer";
 import * as renderer from "react-test-renderer";
 
-test("Component should show 'red' text 'Hello World'", () => {
+test("TEST SUIT", () => {
   const component = renderer.create(<Hello text="World" />);
   const testInstance = component.root;
 
