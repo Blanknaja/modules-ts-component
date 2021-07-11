@@ -1,18 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component should show 'red' text 'HE World' 1`] = `
-<div
-  style={
-    Object {
-      "color": "red",
-    }
-  }
->
-  HI 
-  World
-</div>
-`;
-
 exports[`TEST SUIT 1`] = `
 <div
   style={
@@ -21,7 +8,8 @@ exports[`TEST SUIT 1`] = `
     }
   }
 >
-  HI 
+  Hello 
   World
+   naja
 </div>
 `;

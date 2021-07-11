@@ -42,11 +42,12 @@ var ExampleComponent = /** @class */ (function (_super) {
     ExampleComponent.prototype.render = function () {
         var text = this.props.text;
         return React.createElement("div", { style: { color: "red" } },
-            "HI ",
-            text);
+            "Hello ",
+            text,
+            " naja");
     };
     return ExampleComponent;
 }(React.Component));
 
-export default ExampleComponent;
+export { ExampleComponent as Hello };
 //# sourceMappingURL=index.es.js.map

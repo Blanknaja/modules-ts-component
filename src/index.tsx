@@ -1,15 +1,4 @@
-/**
- * @class ExampleComponent
- */
+import Hello from "./Hello";
 
- import * as React from "react";
 
- export type Props = { text: string };
- 
- export default class ExampleComponent extends React.Component<Props> {
-   render() {
-     const { text } = this.props;
- 
-     return <div style={{ color: "red" }}>HI {text}</div>;
-   }
- }
+export { Hello };

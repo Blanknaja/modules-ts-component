@@ -68,11 +68,12 @@ var ExampleComponent = /** @class */ (function (_super) {
     ExampleComponent.prototype.render = function () {
         var text = this.props.text;
         return React__namespace.createElement("div", { style: { color: "red" } },
-            "HI ",
-            text);
+            "Hello ",
+            text,
+            " naja");
     };
     return ExampleComponent;
 }(React__namespace.Component));
 
-exports.default = ExampleComponent;
+exports.Hello = ExampleComponent;
 //# sourceMappingURL=index.js.map
