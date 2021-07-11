@@ -3,6 +3,9 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
+var styled = require('styled-components');
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
 function _interopNamespace(e) {
     if (e && e.__esModule) return e;
@@ -25,6 +28,7 @@ function _interopNamespace(e) {
 }
 
 var React__namespace = /*#__PURE__*/_interopNamespace(React);
+var styled__default = /*#__PURE__*/_interopDefaultLegacy(styled);
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
@@ -57,6 +61,11 @@ function __extends(d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 }
 
+function __makeTemplateObject(cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+}
+
 /**
  * @class ExampleComponent
  */
@@ -67,13 +76,15 @@ var ExampleComponent = /** @class */ (function (_super) {
     }
     ExampleComponent.prototype.render = function () {
         var text = this.props.text;
-        return React__namespace.createElement("div", { style: { color: "red" } },
+        return React__namespace.createElement(TestStyle, { style: { color: "red" } },
             "Hello ",
             text,
             " naja");
     };
     return ExampleComponent;
 }(React__namespace.Component));
+var TestStyle = styled__default['default'].div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  width: 250px;\n  height: 200px;\n  background: purple;\n"], ["\n  width: 250px;\n  height: 200px;\n  background: purple;\n"])));
+var templateObject_1;
 
 var ProjectCardVertical = function (_a) {
     var title = _a.title;

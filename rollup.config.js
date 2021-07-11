@@ -27,6 +27,8 @@ export default {
       sourcemap: true
     }
   ],
+  external: ['styled-components'],
+  globals: { 'styled-components': 'styled' },
   plugins: [
     peerDepsExternal(),
     resolve(),
