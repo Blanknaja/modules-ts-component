@@ -68,9 +68,9 @@ var ExampleComponent = /** @class */ (function (_super) {
     ExampleComponent.prototype.render = function () {
         var text = this.props.text;
         return React__namespace.createElement("div", { style: { color: "red", background: "green" } },
-            "Hello test ",
+            "Text : ",
             text,
-            " naja");
+            " ");
     };
     return ExampleComponent;
 }(React__namespace.Component));

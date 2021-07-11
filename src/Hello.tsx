@@ -11,6 +11,6 @@
    render() {
      const { text } = this.props;
  
-     return <div style={{ color: "red" , background : "green"}}>Hello test {text} naja</div>;
+     return <div style={{ color: "red" , background : "green"}}>Text : {text} </div>;
    }
  }

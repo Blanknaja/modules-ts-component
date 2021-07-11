@@ -18,8 +18,8 @@ exports[`TEST SUIT 1`] = `
     }
   }
 >
-  Hello test 
+  Text : 
   World
-   naja
+   
 </div>
 `;
