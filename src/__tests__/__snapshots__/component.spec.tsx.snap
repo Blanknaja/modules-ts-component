@@ -1,5 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`TEST Project 1`] = `
+<div
+  className="sc-bdnxRM loDkce"
+>
+  <h1>
+    My Title :
+    Card
+  </h1>
+</div>
+`;
+
 exports[`TEST SUIT 1`] = `
 <div
   style={

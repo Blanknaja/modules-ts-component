@@ -75,5 +75,19 @@ var ExampleComponent = /** @class */ (function (_super) {
     return ExampleComponent;
 }(React__namespace.Component));
 
+var ProjectCardVertical = function (_a) {
+    var title = _a.title;
+    return (React__namespace.createElement("div", null,
+        React__namespace.createElement("h1", null,
+            "My Title :",
+            title)));
+};
+// const ProjectCardVerticalStyle = styled.div`
+//   width: 250px;
+//   height: 200px;
+//   background: purple;
+// `;
+
 exports.Hello = ExampleComponent;
+exports.ProjectCardVertical = ProjectCardVertical;
 //# sourceMappingURL=index.js.map

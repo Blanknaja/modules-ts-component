@@ -3,6 +3,9 @@
  */
 
  import * as React from "react";
+  import styled from "styled-components";
+
+
 
  export type Props = { text: string };
  
@@ -10,6 +13,13 @@
    render() {
      const { text } = this.props;
  
-     return <div style={{ color: "red" }}>Hello {text} naja</div>;
+     return <TestStyle style={{ color: "red" }}>Hello {text} naja</TestStyle>;
    }
  }
+
+
+const TestStyle = styled.div`
+  width: 250px;
+  height: 200px;
+  background: purple;
+`;
