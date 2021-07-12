@@ -7,9 +7,9 @@ interface CardProps {
 
 const ProjectCardVertical: React.FC<CardProps> = ({ title }) => {
   return (
-    <StyledDiv>
+    <div>
       <h1>My Title naja :{title}</h1>
-    </StyledDiv>
+    </div>
   );
 };
 

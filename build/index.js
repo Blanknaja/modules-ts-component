@@ -86,12 +86,12 @@ var ExampleComponent = /** @class */ (function (_super) {
 
 var ProjectCardVertical = function (_a) {
     var title = _a.title;
-    return (React__namespace.createElement(StyledDiv, null,
+    return (React__namespace.createElement("div", null,
         React__namespace.createElement("h1", null,
             "My Title naja :",
             title)));
 };
-var StyledDiv = styled__default['default'].div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  width: 300px;\n  height: 200px;\n  background-color: blue;\n\n"], ["\n  width: 300px;\n  height: 200px;\n  background-color: blue;\n\n"])));
+styled__default['default'].div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  width: 300px;\n  height: 200px;\n  background-color: blue;\n\n"], ["\n  width: 300px;\n  height: 200px;\n  background-color: blue;\n\n"])));
 var templateObject_1;
 
 exports.Hello = ExampleComponent;
