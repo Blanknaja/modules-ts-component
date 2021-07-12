@@ -1,4 +1,5 @@
 import * as React from 'react';
+import styled from 'styled-components';
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
@@ -31,6 +32,11 @@ function __extends(d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 }
 
+function __makeTemplateObject(cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+}
+
 /**
  * @class ExampleComponent
  */
@@ -51,11 +57,13 @@ var ExampleComponent = /** @class */ (function (_super) {
 
 var ProjectCardVertical = function (_a) {
     var title = _a.title;
-    return (React.createElement("div", null,
+    return (React.createElement(StyledDiv, null,
         React.createElement("h1", null,
-            "My Title :",
+            "My Title naja :",
             title)));
 };
+var StyledDiv = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  width: 300px;\n  height: 200px;\n  background-color: blue;\n\n"], ["\n  width: 300px;\n  height: 200px;\n  background-color: blue;\n\n"])));
+var templateObject_1;
 
 export { ExampleComponent as Hello, ProjectCardVertical };
 //# sourceMappingURL=index.es.js.map

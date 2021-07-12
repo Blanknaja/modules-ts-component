@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TEST Project 1`] = `
-<div>
+<div
+  className="sc-bdVaJa cPjBOl"
+>
   <h1>
-    My Title :
+    My Title naja :
     Card
   </h1>
 </div>
